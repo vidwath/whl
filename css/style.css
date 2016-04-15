@@ -1,0 +1,105 @@
+/*!
+ * Start Bootstrap - Logo Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+ body {
+ 	padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+ 	font-family: 'Dosis', sans-serif;
+ }
+ .navbar-inverse {
+ 	background-color: #6c7a89;
+ }
+ .navbar-fixed-top .nav {
+ 	padding: 15px 0;
+ 	float: right;
+ }
+
+ .navbar-fixed-top .navbar-brand {
+ 	padding: 0 15px;
+ }
+ /*Login Page*/
+ .nav.nav-custom {
+ 	margin-top: -26px;
+ }
+ .nav.nav-custom a {
+ 	font-size:15px;
+ 	color:#fff;
+ 	background:#6c7a89;
+ }
+ .nav.nav-custom span {
+ 	font-size:16px;
+ 	color:#fff;
+ 	background:#6c7a89
+ }
+ 
+ #login-panel {
+ 	margin-top: 82px;
+ 	padding: 35px 0 43px;
+ 	border-radius: 8px;
+ 	background:#fff;
+ }
+ .navbar-header p {
+ 	color: #fff;
+ 	font-size: 34px;
+ 	font-weight: 500;
+ 	margin-left: 491px;
+ 	margin-top: 13px;
+ }
+ #login-panel h2 {
+ 	text-align: center;
+ 	color: #6c7a89;
+ 	font-weight: 600;
+ 	margin: 0 50px;
+ 	padding: 5px 0;
+ }
+ #login-panel input {
+ 	border-color: -moz-use-text-color -moz-use-text-color #ccc;
+ 	border-radius: 0;
+ 	border-style: none none solid;
+ 	border-width: 0 0 2px;
+ 	box-shadow: none;
+ 	padding-left: 31px;
+ 	font-size: 19px;
+ 	background: transparent;
+ 	color: #2F353E;
+ }
+ #login-panel .form-group {
+ 	padding-left: 50px;
+ 	padding-right: 50px;
+ }
+ #login-panel input:focus{
+ 	border-bottom-color: #6c7a89;
+ }
+ #login-panel .fa.fa-user,#login-panel .fa.fa-lock {
+ 	font-size: 21px;
+ 	position: relative;
+ 	top: 28px;
+ 	color: #6c7a89;
+ }
+ #login-page .btn.btn-success {
+ 	background-color: #90c695;
+ 	border-radius: 0;
+ 	font-size: 18px;
+ 	width: 453px;
+ 	height: 37px;
+ 	margin-left: 50px;
+ 	margin-top: 39px;
+ }
+ #login-page .btn.btn-success:hover {
+ 	background-color:#68c3a3;
+ }
+ #login-page .btn.btn-success:focus  {
+ 	outline: 0;
+ }
+
+ @media(min-width:768px) {
+ 	body {
+ 		padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+ 	}
+
+ 	.navbar-fixed-top .navbar-brand {
+ 		padding: 15px 0;
+ 	}
+ }
