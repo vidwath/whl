@@ -20,6 +20,20 @@
  	padding: 0 15px;
  }
  /*Login Page*/
+ .nav.nav-custom {
+ 	margin-top: -26px;
+ }
+ .nav.nav-custom a {
+ 	font-size:15px;
+ 	color:#fff;
+ 	background:#6c7a89;
+ }
+ .nav.nav-custom span {
+ 	font-size:16px;
+ 	color:#fff;
+ 	background:#6c7a89
+ }
+ 
  #login-panel {
  	margin-top: 82px;
  	padding: 35px 0 43px;
@@ -27,10 +41,10 @@
  	background:#fff;
  }
  .navbar-header p {
- 	color: #c5eff7;
+ 	color: #fff;
  	font-size: 34px;
  	font-weight: 500;
- 	margin-left: 468px;
+ 	margin-left: 491px;
  	margin-top: 13px;
  }
  #login-panel h2 {
