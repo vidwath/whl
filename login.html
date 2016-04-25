@@ -17,6 +17,7 @@
 
     <!-- Custom CSS -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -30,7 +31,7 @@
     <body style= "background:url(images/Suru_Wallpaper_Desktop_4096x2304_Gray.png);">
 
         <!-- Navigation -->
-        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <nav class="navbar navbar-inverse navbar-inverse-custom navbar-fixed-top" role="navigation">
             <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
@@ -49,7 +50,7 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav nav-custom">
                         <li>
-                        <a href="http://time.is/India" id="time_is_link" rel="nofollow"></a>
+                        <a href="http://time.is/India" id="time_is_link" rel="nofollow" disabled="true"></a>
                            <span id="India_z424" style=""></span>
                        </li>
                        <!--  <li>
@@ -98,8 +99,13 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
     <script src="http://widget.time.is/en.js"></script>
-    <script>
+    <script type="text/javaScript">
+            alert('lo');
         time_is_widget.init({India_z424:{template:"TIME<br>DATE", date_format:"dayname daynum/monthnum/yy"}});
+        $("#time_is_link").click(function (e) {
+            alert('hi');
+            e.preventDefault();
+        });
     </script>
 
 </body>

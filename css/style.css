@@ -8,8 +8,9 @@
  	padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
  	font-family: 'Dosis', sans-serif;
  }
- .navbar-inverse {
- 	background-color: #6c7a89;
+ .navbar-inverse.navbar-inverse-custom {
+ 	background-color: #336E7B;
+ 	border-color: transparent;
  }
  .navbar-fixed-top .nav {
  	padding: 15px 0;
@@ -26,12 +27,12 @@
  .nav.nav-custom a {
  	font-size:15px;
  	color:#fff;
- 	background:#6c7a89;
+ 	background:#336E7B;
  }
  .nav.nav-custom span {
  	font-size:16px;
  	color:#fff;
- 	background:#6c7a89
+ 	background:#336E7B
  }
  
  #login-panel {
@@ -49,7 +50,7 @@
  }
  #login-panel h2 {
  	text-align: center;
- 	color: #6c7a89;
+ 	color: #336E7B;
  	font-weight: 600;
  	margin: 0 50px;
  	padding: 5px 0;
@@ -70,13 +71,13 @@
  	padding-right: 50px;
  }
  #login-panel input:focus{
- 	border-bottom-color: #6c7a89;
+ 	border-bottom-color: #336E7B;
  }
  #login-panel .fa.fa-user,#login-panel .fa.fa-lock {
  	font-size: 21px;
  	position: relative;
  	top: 28px;
- 	color: #6c7a89;
+ 	color: #336E7B;
  }
  #login-page .btn.btn-success {
  	background-color: #90c695;
@@ -93,13 +94,72 @@
  #login-page .btn.btn-success:focus  {
  	outline: 0;
  }
-
- @media(min-width:768px) {
- 	body {
- 		padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
- 	}
-
- 	.navbar-fixed-top .navbar-brand {
- 		padding: 15px 0;
- 	}
+ /*Employee Page*/
+ #employee-page {
+ 	margin-top: 50px;
+ 	margin-bottom: 50px;	
  }
+ .employee {
+ 	padding: 40px 0 40px 0;
+ }
+ #exTab1 .tab-content {
+ 	background-color: #fff;
+ 	padding : 5px 15px;
+ }
+ #exTab1 .nav-pills > li > a {
+ 	border-radius: 0;
+ 	font-size: 18px;
+ 	font-weight: 600;
+ }
+ .c-profile {
+ 	background-repeat: no-repeat;
+ 	border-radius: 50%;
+ 	width: 160px;
+ 	height: 160px;
+ 	display: block;
+ }
+ /*#custom-search-input {
+ 	margin-left: 31px;
+ 	margin-top: 50px;
+ 	}*/
+ 	.profile-view {
+ 		margin-top: 50px;
+ 	}
+ 	.profile-view p {
+ 		font-size: 18px;
+ 		font-weight: 600;
+ 		margin-top: 14px;
+ 	}
+ 	.profile-view .table {
+ 		font-size: 15px;
+ 	}
+ 	#exTab1 .profile-view table tr td {
+ 		border-bottom: 1px solid #336E7B;
+ 		border-top:1px solid #336E7B;
+ 	}
+ 	#exTab1 .profile-view input {
+ 		border-left: medium none;
+ 		border-radius: 0;
+ 		border-right: medium none;
+ 		border-top: medium none;
+ 		box-shadow: none;
+ 		padding: 0px;
+ 	}
+ 	.profile-view .fa.fa-edit {
+ 		padding-top: 10px;
+ 	}
+ 	.button-margin-top {
+ 		margin-top: 196px;
+ 	}
+ 	.panel-margin {
+ 		margin-top: 193px;
+ 	}
+ 	#exTab1 .panel {
+ 		border:none;
+ 	}
+ 	#exTab1 .panel-heading {
+ 		border:none;
+ 	}
+   .top {
+ 		margin-top: 56px;
+ 	}
