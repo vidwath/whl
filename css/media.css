@@ -1,0 +1,57 @@
+:  /*Mobile portrait*/
+@media (max-width: 480px) {}
+/*Mobile landscape*/
+@media (min-width: 481px) and (max-width: 599px) {}
+/*Small tablet portrait*/
+@media (min-width: 600px) and (max-width: 767px) {}
+/*Small tablet landscape*/
+@media (min-width: 768px) and (max-width: 959px) {
+	body {
+		padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+	}
+
+	.navbar-fixed-top .navbar-brand {
+		padding: 15px 0;
+	}
+}
+/*Tablet landscape (1024x768)*/
+@media (min-width: 960px) and (max-width: 1199px) {
+	body {
+		padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+	}
+
+	.navbar-fixed-top .navbar-brand {
+		padding: 15px 0;
+	}
+}
+/*Tablet portrait*/
+/*Tablet landscape (1024x768)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+	body {
+		padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+	}
+
+	.navbar-fixed-top .navbar-brand {
+		padding: 15px 0;
+	}
+}
+/*Tablet portrait*/
+@media (min-width: 768px) and (max-width: 979px) and (orientation: portrait) {
+	body {
+		padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+	}
+
+	.navbar-fixed-top .navbar-brand {
+		padding: 15px 0;
+	}
+}
+/*Large monitor*/
+@media (min-width: 1200px) {
+	body {
+		padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+	}
+
+	.navbar-fixed-top .navbar-brand {
+		padding: 15px 0;
+	}	
+}
